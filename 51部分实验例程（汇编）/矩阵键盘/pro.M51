@@ -1,0 +1,117 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        05/28/2013  14:35:19  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE main.obj TO pro
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+
+
+LINK MAP OF MODULE:  pro (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     00B9H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  pro (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:00B2H         SYMBOL        DE1
+  C:00B4H         SYMBOL        DE2
+  C:00B0H         SYMBOL        DELAY10MS
+  C:0040H         SYMBOL        INIT
+  C:005AH         SYMBOL        KEY_DOWN
+  C:004FH         SYMBOL        KEY_SCAN
+  C:00A9H         SYMBOL        KEY_UP
+  C:004DH         SYMBOL        MAIN
+  C:0063H         SYMBOL        NEXT0
+  C:006AH         SYMBOL        NEXT1
+  C:0071H         SYMBOL        NEXT2
+  C:0078H         SYMBOL        NEXT3
+  C:008CH         SYMBOL        NEXT4
+  C:0096H         SYMBOL        NEXT5
+  C:00A0H         SYMBOL        NEXT6
+  C:007DH         SYMBOL        NEXT_SCAN
+  D:0080H         SYMBOL        P0
+  D:0090H         SYMBOL        P1
+  D:00A0H         SYMBOL        P2
+  C:0048H         SYMBOL        START
+  C:0000H         LINE#         2
+  C:0040H         LINE#         10
+  C:0042H         LINE#         11
+  C:0044H         LINE#         12
+  C:0046H         LINE#         13
+  C:0048H         LINE#         15
+  C:0049H         LINE#         16
+  C:004CH         LINE#         17
+  C:004DH         LINE#         19
+  C:004FH         LINE#         24
+BL51 BANKED LINKER/LOCATER V6.22                                                      05/28/2013  14:35:19  PAGE 2
+
+
+  C:0052H         LINE#         25
+  C:0053H         LINE#         26
+  C:0055H         LINE#         27
+  C:0058H         LINE#         28
+  C:005AH         LINE#         30
+  C:005CH         LINE#         31
+  C:005EH         LINE#         32
+  C:0061H         LINE#         33
+  C:0063H         LINE#         35
+  C:0066H         LINE#         36
+  C:0068H         LINE#         37
+  C:006AH         LINE#         39
+  C:006DH         LINE#         40
+  C:006FH         LINE#         41
+  C:0071H         LINE#         43
+  C:0074H         LINE#         44
+  C:0076H         LINE#         45
+  C:0078H         LINE#         47
+  C:007BH         LINE#         48
+  C:007DH         LINE#         50
+  C:0080H         LINE#         51
+  C:0082H         LINE#         52
+  C:0085H         LINE#         53
+  C:0087H         LINE#         54
+  C:0088H         LINE#         55
+  C:0089H         LINE#         56
+  C:008CH         LINE#         58
+  C:008FH         LINE#         59
+  C:0091H         LINE#         60
+  C:0092H         LINE#         61
+  C:0093H         LINE#         62
+  C:0096H         LINE#         64
+  C:0099H         LINE#         65
+  C:009BH         LINE#         66
+  C:009CH         LINE#         67
+  C:009DH         LINE#         68
+  C:00A0H         LINE#         70
+  C:00A3H         LINE#         71
+  C:00A5H         LINE#         72
+  C:00A6H         LINE#         73
+  C:00A7H         LINE#         74
+  C:00A9H         LINE#         76
+  C:00ABH         LINE#         77
+  C:00ADH         LINE#         78
+  C:00B0H         LINE#         83
+  C:00B2H         LINE#         85
+  C:00B4H         LINE#         87
+  C:00B6H         LINE#         88
+  C:00B8H         LINE#         89
+  -------         ENDMOD        MAIN
+
+Program Size: data=8.0 xdata=0 code=185
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,38 @@
+	ORG 	000H
+	AJMP 	MAIN
+	ORG 	030H
+;*************;
+; 主程序程序	  ；
+;*************;
+;电机反转的顺序是01-03-02-06-04-0C-08-09
+MAIN:
+	MOV 	P1,#01H
+	ACALL 	DELAY10MS ;延时，调节可以调整电机的转速
+	MOV 	P1,#03H
+	ACALL 	DELAY10MS
+	MOV 	P1,#02H
+	ACALL 	DELAY10MS
+	MOV 	P1,#06H
+	ACALL 	DELAY10MS
+	MOV 	P1,#04H
+	ACALL 	DELAY10MS
+	MOV 	P1,#0CH
+	ACALL 	DELAY10MS
+	MOV 	P1,#08H
+	ACALL 	DELAY10MS
+	MOV 	P1,#09H
+	ACALL 	DELAY10MS
+	AJMP 	MAIN
+;*************;
+; 延时程序	  ；
+;*************;
+DELAY10MS:
+	MOV 	R6,#030H
+DE1:
+	MOV 	R7,#0F8H
+DE2:
+	DJNZ 	R7,DE2
+	DJNZ 	R6,DE1
+	RET
+
+	END

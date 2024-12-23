@@ -1,0 +1,4 @@
+"STARTUP.obj",
+".\bujindianji.obj" 
+TO "bujindianji" 
+RAMSIZE(256) 
